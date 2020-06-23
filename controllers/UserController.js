@@ -1,6 +1,7 @@
 module.exports = {
   
   async somar(numbers) {
+  
     try {
       if (typeof (numbers) != "object") {
         throw new Error('Informe um array de números');
